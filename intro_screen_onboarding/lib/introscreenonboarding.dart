@@ -37,7 +37,7 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
             color: Colors.white,
           ),
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 0),
+            padding: const EdgeInsets.only(top: 50),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
