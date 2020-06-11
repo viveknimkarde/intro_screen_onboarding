@@ -19,7 +19,7 @@ class IntroductionState extends State<Introduction> {
   Widget build(BuildContext context) {
     return new Container(
       child: Padding(
-        padding: EdgeInsets.all(40),
+        padding: EdgeInsets.all(20),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -47,9 +47,6 @@ class IntroductionState extends State<Introduction> {
                       fontWeight: FontWeight.w600),
                 ),
               ],
-            ),
-            SizedBox(
-              height: 10.0,
             ),
             Text(
               widget.subTitle,
