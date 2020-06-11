@@ -61,7 +61,6 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
                 ),
                 Expanded(
                   child: Container(
-                    height: 550.0,
                     child: PageView(
                       physics: ClampingScrollPhysics(),
                       controller: _pageController,
