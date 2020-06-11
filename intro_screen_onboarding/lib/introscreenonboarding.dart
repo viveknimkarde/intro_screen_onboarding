@@ -37,28 +37,10 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
             color: Colors.white,
           ),
           child: Padding(
-            padding: const EdgeInsets.symmetric(vertical: 40.0),
+            padding: const EdgeInsets.symmetric(vertical: 0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    Container(
-                      alignment: Alignment.topRight,
-                      child: FlatButton(
-                        onPressed: () {
-                          //print('skip');
-                          widget.onTapSkipButton();
-                        },
-                        child: Text(
-                          'Skip',
-                          style: TextStyle(color: Colors.black, fontSize: 20),
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
                 Expanded(
                   child: Container(
                     height: MediaQuery.of(context).size.height / 2,
