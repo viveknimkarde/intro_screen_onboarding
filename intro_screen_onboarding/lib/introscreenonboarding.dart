@@ -43,7 +43,7 @@ class _IntroScreenOnboardingState extends State<IntroScreenOnboarding> {
               children: [
                 Expanded(
                   child: Container(
-                    height: MediaQuery.of(context).size.height / 2,
+                    height: 2 * (MediaQuery.of(context).size.height / 3),
                     child: PageView(
                       physics: ClampingScrollPhysics(),
                       controller: _pageController,
